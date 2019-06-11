@@ -1,6 +1,6 @@
 {
   "name": "react-blockstack-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "umd:main": "dist/react-blockstack-buttons.umd.production.js",
   "module": "dist/react-blockstack-buttons.es.production.js",
