@@ -22,7 +22,7 @@ Or with yarn:
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BlockstackButton from 'react-blockstack-button';
+import { BlockstackButton } from 'react-blockstack-button';
 
 const App = () => {
   const handleLogin = () => {

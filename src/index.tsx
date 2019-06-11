@@ -14,6 +14,10 @@ interface Props {
    */
   variant?: 'blue' | 'light';
   /**
+   * The onClick event attached to the button
+   */
+  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  /**
    * Props forwarded to the button element
    */
   buttonProps?: React.ButtonHTMLAttributes<HTMLButtonElement>;
@@ -30,6 +34,7 @@ export const BlockstackButton = ({
   width,
   height,
   variant,
+  onClick,
   buttonProps,
 }: Props) => {
   const [isFocused, setIsFocused] = useState<boolean>(false);
@@ -65,6 +70,7 @@ export const BlockstackButton = ({
   return (
     <button
       style={buttonStyle}
+      onClick={onClick}
       onFocus={() => setIsFocused(true)}
       onBlur={() => setIsFocused(false)}
       {...buttonProps}
@@ -204,5 +210,3 @@ export const BlockstackButton = ({
     </button>
   );
 };
-
-export default BlockstackButton;
