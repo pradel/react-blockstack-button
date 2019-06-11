@@ -1,9 +1,16 @@
+---
+name: Documentation
+route: /
+---
+
+import { Props, Playground } from 'docz';
+import { BlockstackButton } from '../src/index.tsx';
+
 # react-blockstack-button
 
 React component to display a login with blockstack button.
-The svg are taken from the [blockstack branding materials](https://www.dropbox.com/sh/5uyhon1dxax4t6t/AABnh34kFRzD2TSck1wE9fmqa?dl=0)
 
-TODO show image
+<BlockstackButton />
 
 ## Installation
 
@@ -35,8 +42,20 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 ## Demo
 
-TODO
+Blue version of the button.
+
+<Playground>
+  <BlockstackButton />
+</Playground>
+
+Light version of the button.
+
+<Playground>
+  <BlockstackButton variant="light" />
+</Playground>
 
 ## Props
 
-TODO
+You can customize the button using the following props:
+
+<Props of={BlockstackButton} />
