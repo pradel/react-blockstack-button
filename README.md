@@ -1,9 +1,11 @@
 # react-blockstack-button
 
 React component to display a login with blockstack button.
-The svg are taken from the [blockstack branding materials](https://www.dropbox.com/sh/5uyhon1dxax4t6t/AABnh34kFRzD2TSck1wE9fmqa?dl=0)
 
-TODO show image
+<div>
+  <img src="assets/btn-blockstack-blue-l.svg" alt="Blockstack logo blue">
+  <img src="assets/btn-blockstack-light-l.svg" alt="Blockstack logo light">
+</div>
 
 ## Installation
 
