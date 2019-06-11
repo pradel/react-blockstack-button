@@ -1,6 +1,7 @@
 {
   "name": "react-blockstack-button",
   "version": "0.0.3",
+  "description": "React component to display a login with blockstack button",
   "main": "dist/index.js",
   "umd:main": "dist/react-blockstack-buttons.umd.production.js",
   "module": "dist/react-blockstack-buttons.es.production.js",
@@ -16,6 +17,13 @@
     "docz:build": "docz build",
     "prepublish": "yarn build"
   },
+  "repository": "git+https://github.com/pradel/react-blockstack-button.git",
+  "author": "Léo Pradel",
+  "bugs": {
+    "url": "https://github.com/pradel/react-blockstack-button/issues"
+  },
+  "homepage": "https://react-blockstack-button.leopradel.com",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0"
   },
