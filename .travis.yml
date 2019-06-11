@@ -1,0 +1,19 @@
+language: node_js
+
+sudo: false
+
+cache: yarn
+
+node_js:
+  - '11'
+
+install:
+  - yarn install --frozen-lockfile
+
+script:
+  - yarn build
+  - yarn test
+  - yarn docz:build
+
+notifications:
+  email: false

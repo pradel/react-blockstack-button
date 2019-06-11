@@ -35,8 +35,8 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 ## Demo
 
-TODO
+https://react-blockstack-button.leopradel.com/#demo
 
 ## Props
 
-TODO
+https://react-blockstack-button.leopradel.com/#props
